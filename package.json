@@ -1,0 +1,33 @@
+{
+  "name": "selenium-service",
+  "version": "0.0.0",
+  "description": "Install Selenium as a native Linux or Windows service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "selenium-service": "index.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iress/selenium-service.git"
+  },
+  "keywords": [
+    "selenium",
+    "selenium grid",
+    "service"
+  ],
+  "os": ["linux", "win32"],
+  "author": "Lucas Azzola <lucas.azzola@iress.com.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iress/selenium-service/issues"
+  },
+  "homepage": "https://github.com/iress/selenium-service#readme",
+  "dependencies": {
+    "os-service": "^1.3.0",
+    "selenium-standalone": "^5.5.0"
+  }
+}
